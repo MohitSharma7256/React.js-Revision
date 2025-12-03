@@ -12,6 +12,7 @@ import Parent from './pages/Props/Parent'
 import Parent1 from './pages/Props/parent1'
 import Parent2 from './pages/Props/lifting(send-data-child-to-parent)/Parent2'
 import InputExample from './pages/input/InputExample'
+import Appex from './pages/ReactRouterDom/Appex'
 
 const App = () => {
   return (
@@ -45,7 +46,11 @@ const App = () => {
 
 
         {/* input form */}
-        <InputExample />
+        {/* <InputExample /> */}
+
+
+        {/* react router example */}
+        <Appex />
 
 
       </div>
