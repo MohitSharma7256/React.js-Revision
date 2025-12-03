@@ -11,6 +11,7 @@ import Task from './pages/State/Task'
 import Parent from './pages/Props/Parent'
 import Parent1 from './pages/Props/parent1'
 import Parent2 from './pages/Props/lifting(send-data-child-to-parent)/Parent2'
+import InputExample from './pages/input/InputExample'
 
 const App = () => {
   return (
@@ -40,7 +41,11 @@ const App = () => {
         {/* <Parent1 /> */}
 
         {/* receiving data from child to parent through lifting state up */}
-        <Parent2 />
+        {/* <Parent2 /> */}
+
+
+        {/* input form */}
+        <InputExample />
 
 
       </div>
