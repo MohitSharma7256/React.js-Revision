@@ -14,6 +14,10 @@ import Parent2 from './pages/Props/lifting(send-data-child-to-parent)/Parent2'
 import InputExample from './pages/input/InputExample'
 import Appex from './pages/ReactRouterDom/Appex'
 import DataFetcher from './pages/UseEffect/DataFetcher'
+import UseEffectExample from './pages/UseEffect/UseEffectExample'
+import EffectEveryRender from './pages/UseEffect/EffectEveryRender '
+import EffectOnlyOnce from './pages/UseEffect/EffectOnlyOnce'
+import EffectWithDependencies from './pages/UseEffect/EffectWithDependencies'
 
 const App = () => {
   return (
@@ -51,11 +55,18 @@ const App = () => {
 
 
         {/* react router example */}
-        <Appex />
+        {/* <Appex /> */}
 
 
         {/* useeffect */}
-        <DataFetcher />
+        {/* <DataFetcher /> */}
+        <UseEffectExample />
+
+        {/* <EffectEveryRender /> */}
+
+        {/* <EffectOnlyOnce /> */}
+
+        {/* <EffectWithDependencies /> */}
 
       </div>
     </>
